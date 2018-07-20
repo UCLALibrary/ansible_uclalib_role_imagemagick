@@ -1,4 +1,6 @@
 ---
 
-- name: install the latest version of ImageMagick
-  yum: name=ImageMagick state=latest
+- name: Install the ImageMagick package
+  yum:
+    name: "ImageMagick"
+    state: latest
