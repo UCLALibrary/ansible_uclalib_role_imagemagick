@@ -6,7 +6,7 @@ Installs the ImageMagick image manipulation library and utility scripts.
 Requirements
 ------------
 
-Only supports RHEL-family servers at this time.
+Only supports RHEL/CentOS-family servers at this time.
 
 Role Variables
 --------------
@@ -31,9 +31,3 @@ Example Playbook
       - { role: uclalib_role_imagemagick }
 
 ```
-
-License
--------
-
-BSD
-
